@@ -206,7 +206,7 @@ font-family: 'Poppins', sans-serif;
    box-shadow: 4px 5px 4px rgb(63, 198, 203, 0.25);
    border-radius: 20px;
    font-family: 'Poppins', sans-serif;
-   font-size: 1.2rem;
+   font-size: 1rem;
    color: #B7059A;
    cursor: pointer;
    transition: background 0.5s;
@@ -221,7 +221,6 @@ font-family: 'Poppins', sans-serif;
 
 .conteudo-sessao {
    margin-bottom:  48px;;
-   border-top: 0.3px solid #CDD8E1;
 }
 
 .conteudo-sessao-divisao {
