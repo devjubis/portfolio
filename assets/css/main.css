@@ -327,7 +327,7 @@ nav {
     }
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 800px) {
     .home-section {
         display: flex;
         flex-direction: column;
@@ -337,7 +337,47 @@ nav {
     }
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (min-width: 360px) {
+    .home-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+        margin: 50px 15px 9px;
+        font-size: 9px;
+        
+    }
+  }
+
+  @media screen and (min-width:360px) {
+    .img-jubis{
+      width: 95%;
+      height: auto;
+      margin: 70px;
+    }
+    
+  }
+
+  @media screen and (max-width: 1368px) {
+    .home-section{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  @media screen and (max-width: 1368px) {
+    .img-jubis {
+      width: 40%;
+      height: auto;
+    }
+  }
+
+
+  @media screen and (max-width: 800px) {
     .about {
         display: flex;
         flex-direction: column;
@@ -345,6 +385,16 @@ nav {
         font-size: 10px;
         margin: 30px;
     }
+}
+
+@media screen and (min-width:360px) {
+  .skills {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+  
 }
 
   
